@@ -1,7 +1,7 @@
 # random-password-generator
 This application gives the user a randomly generated group of characters that can be used as a secure passcode.
 
-##Image
+## Image
 [random-password-generator](https://user-images.githubusercontent.com/114878128/202285959-01e4a9b3-be94-477d-82d3-974622f7fe70.jpeg)
 
 ## How It Works
