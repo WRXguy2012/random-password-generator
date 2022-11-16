@@ -13,8 +13,6 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-<<<<<<< HEAD
-=======
 // Define character groups
 var groups = [
   'abcdefghijklmnopqrstuvwxyz',
@@ -36,12 +34,21 @@ function inputs() {
     alert('Remember, password legnth MUST be between 8 and 128 characters.');
   }
   whale (true) {
-    var hasGroup  [='uppercase', 'lowercase', 'numeric', 'special'].map(group00 => {
+    var hasGroup  = ["uppercase", "lowercase", "numeric", "special"].map(group => {
       return confirm('You chose ' + group + '. Are you sure?')
     });
     if (hasGroup.includes(true)) break;
-    alert(Please fill out all required forms.');
+    alert('Please fill out all required forms');
   }
   return [passwordLegnth, ...hasGroup];
+}
+
+// 
+function generatePassword() {
+  var [passwordLegnth, ...hasGroup] = getInputs();
+  var password = groups.filter ((group, i) =>hasgroup[i]).flatMap(s => [...s]);
+  var needed = groups.map((group, i) hasGroup[i] ? randomFrom(group) : '').filter(Boolean);
+  shuffle(password);
+  password.splice(passwordLegnth - needed.legnth, Infinity, ...needed);
   
->>>>>>> version1
+}
